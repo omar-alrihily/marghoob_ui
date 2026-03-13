@@ -26,8 +26,16 @@ const marhey = Marhey({
 
 
 export const metadata = {
+ 
   title: 'منصة مرغوب',
   description: 'أسهل طريقة تجمع مقدم الخدمة بالعميل من نفس المدينة',
+  alternates: {
+    canonical: 'https://marghob.net',
+  },
+  icons: {
+    icon: "/favicon.svg", // هذا المسار يفترض وجود الملف في مجلد public
+  },
+
 };
 
 export default function RootLayout({ children }) {
